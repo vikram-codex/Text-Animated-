@@ -1,0 +1,37 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     background-color: black;
+     /* opacity: 0.9; */
+     }
+ 
+ h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20vw;
+  text-align: center;
+  background-image: url("image/images.jpg");
+  color: transparent;
+ -webkit-background-clip:text;
+ 
+}
+
+h2{
+    text-align: center;
+    font-size:50px;
+    cursor: pointer; 
+ 
+}
+
+
+
+
+@media screen and (max-width : 500px){
+    h2{
+        background-color: rgb(0, 0, 0);
+    }
+    
+}
+
+
